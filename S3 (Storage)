@@ -1,0 +1,7 @@
+
+
+Lifecycle policies: Move old data to S3 Glacier or Deep Archive.
+
+Delete unused objects: Remove obsolete or duplicate files.
+
+Intelligent-Tiering: Automatically move data between storage classes based on access patterns.
