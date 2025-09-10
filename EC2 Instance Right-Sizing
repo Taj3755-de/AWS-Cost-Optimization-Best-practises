@@ -1,0 +1,16 @@
+Finding: Several EC2 instances were running on older generation instance types (e.g., m5) across multiple environments.
+
+Action Taken: Migrated instances to newer generation types (m6 or m6a), which provide better performance per cost.
+
+Cost Impact: Reduced cost by $2–6 per instance per month while improving performance.
+
+Recommendation:
+
+Regularly review instance types and consider upgrading to newer generations.
+
+Right-size instances based on actual CPU, memory, and workload requirements.
+
+Track performance improvements post-migration to validate efficiency gains.
+
+Note:
+m6 instance family is cheaper than m5, but not with m7 families
