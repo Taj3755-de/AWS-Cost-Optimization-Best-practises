@@ -1,0 +1,15 @@
+Scenario:
+
+Finding: An EC2 instance was running on a Dedicated Host for a non-compliance workload.
+
+Action Taken: Migrated the instance to a Shared VPC model.
+
+Cost Impact: Saved $1,400 per month per region.
+
+Recommendation:
+
+Review all workloads on dedicated hosts and ensure they are compliant.
+
+Move non-compliance or non-critical workloads to shared instances to optimize costs.
+
+Implement tagging to track instances running on dedicated hosts.
