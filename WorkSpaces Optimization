@@ -1,0 +1,17 @@
+Finding: WorkSpaces were set to Auto Stop mode (e.g., auto-stop every 2 hours), but some users consistently used their WorkSpaces beyond the advised hours. This caused higher monthly costs compared to Always-On mode.
+
+Action Taken:
+
+      Reviewed usage patterns for all WorkSpaces in Auto Stop mode.
+
+      Identified users exceeding 8 hours/day or 4 hours/day thresholds.
+
+      Switched eligible WorkSpaces to Always-On mode to optimize performance and cost.
+
+Recommendation:
+
+      Regularly monitor WorkSpaces usage to determine if Auto Stop or Always-On is more cost-effective.
+
+      Adjust modes based on actual user behavior rather than default settings.
+
+      Document changes and track monthly cost impact to validate optimization.
