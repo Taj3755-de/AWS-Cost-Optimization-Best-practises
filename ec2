@@ -1,0 +1,11 @@
+EC2 (Compute Instances)
+
+Right-sizing: Use instance types that match actual usage.
+
+Stop unused instances: Identify idle instances and stop or terminate them.
+
+Reserved or Savings Plans: Commit to 1-3 years for predictable workloads.
+
+Spot Instances: Use for non-critical or batch jobs.
+
+Auto Scaling: Scale down during off-peak hours
