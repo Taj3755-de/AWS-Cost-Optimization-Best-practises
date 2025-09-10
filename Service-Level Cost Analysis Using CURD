@@ -1,0 +1,30 @@
+Monthly billing reports showed unexpected high charges on specific services, but the root cause was unclear without detailed breakdowns.
+
+
+        Enabled AWS Cost and Usage Report (CUR) with daily granularity and service-level breakdown.
+
+        Imported CUR data into S3/Redshift/QuickSight for detailed analysis.
+
+        Analyzed costs by individual services, linked accounts, and tags to identify:
+
+        Idle resources
+
+        Orphaned infrastructure
+
+        Over-provisioned services
+
+        Highlighted services with disproportionate cost compared to usage.
+
+
+
+        Identified cost-saving opportunities for EC2, EBS, WorkSpaces, RDS, and S3.
+
+        Provided a data-driven basis for right-sizing, snapshot cleanup, and policy optimization.
+
+
+
+        Regularly analyze CUR reports at the service and tag level.
+
+        Use automated dashboards (QuickSight, Athena, or Redshift) to monitor trends.
+
+        Integrate findings into monthly cost optimization initiatives.
