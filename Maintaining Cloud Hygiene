@@ -1,31 +1,28 @@
+Finding:    Multiple unused or unassociated resources across the AWS environment were incurring costs or cluttering the account:
 
+      EBS Volumes    (unattached)
+      Snapshots    (left from old AMIs)
+      Elastic IPs    (not in use)
+      Security Groups    (unused or redundant)
+      VPC Peering Connections    (unused)
+      ENIs    (unused network interfaces)
+      Route Tables    (orphaned)
+      VPCs    (unused or obsolete)
 
-* **Finding:** Multiple unused or unassociated resources across the AWS environment were incurring costs or cluttering the account:
-
-  * **EBS Volumes** (unattached)
-  * **Snapshots** (left from old AMIs)
-  * **Elastic IPs** (not in use)
-  * **Security Groups** (unused or redundant)
-  * **VPC Peering Connections** (unused)
-  * **ENIs** (unused network interfaces)
-  * **Route Tables** (orphaned)
-  * **VPCs** (unused or obsolete)
-
-* **Action Taken:**
+    Action Taken:   
 
   1. Identified all unassociated or unused resources using scripts and AWS CLI.
   2. Cleaned up orphaned and unused resources systematically.
   3. Implemented tagging and auditing policies to prevent future clutter.
 
-* **Cost Impact:**
+    Cost Impact:   
 
   * Reduced ongoing costs from idle storage, unused IPs, and orphaned infrastructure.
   * Improved operational hygiene and reduced risk of misconfigured or orphaned resources.
 
-* **Recommendation:**
+    Recommendation:   
 
   * Schedule regular audits for orphaned or unused resources.
   * Implement automation for detecting and alerting on unassociated volumes, snapshots, and other idle resources.
   * Maintain proper tagging and documentation to quickly identify obsolete resources.
-
 
