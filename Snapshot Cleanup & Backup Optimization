@@ -1,0 +1,19 @@
+Finding: Numerous EBS snapshots were not cleaned up due to a corrupted DLM (Data Lifecycle Manager) policy, causing unnecessary monthly costs.
+
+Action Taken:
+
+      Migrated snapshot management to AWS Backup.
+
+      Properly configured backup retention periods according to DRP (Disaster Recovery Plan).
+
+      Wrote a custom script to identify and clean up unregulated snapshots.
+
+      Cost Impact: Saved $40,000 per month.
+
+Recommendation:
+
+      Regularly audit DLM and backup policies to prevent misconfigurations.
+
+      Automate snapshot analysis to identify orphaned or uncleaned snapshots.
+
+      Align backup retention with business and compliance requirements to avoid over-retention.
