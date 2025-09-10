@@ -13,4 +13,4 @@ Right-size instances based on actual CPU, memory, and workload requirements.
 Track performance improvements post-migration to validate efficiency gains.
 
 Note:
-m6 instance family is cheaper than m5, but not with m7 families
+m6 instance family are  cheaper than m5, but not with m7 families
